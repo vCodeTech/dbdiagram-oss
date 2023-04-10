@@ -38,7 +38,7 @@
         get: () => props.source,
         set: (val) => emit('update:source', val)
       })
-
+      // giai thich doan code ben duoi
       const theme = computed({
         get: () => editor.getTheme,
         set: (v) => editor.updateTheme(v)
